@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+
+    color: #787777;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+ 
+    
+  
+    margin: 0 auto;
+    user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+
+}
+html{
+  
+  background-color: rgb(28, 27, 27);
+}
+.cont{
+  
+  background-color: rgb(28, 27, 27);
+}
+.tel{
+    border: 3px solid #fb02ff;
+    border-radius: 5px;
+    color:azure;
+}
+.logo{
+width: 200px;
+height: 100px;
+  
+  margin-bottom: 40px;
+}
+.logo1 img{
+  width: 200px;
+  height: 100px;}
+.close{
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+button{
+  
+  background-color: rgb(28, 27, 27);
+    border: none;
+}
+span{
+        font-size: 40px;
+        color: aliceblue;
+}
+.tab{
+    margin: 15px;
+}
+.tablinks{
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+ font-weight: bold;
+ font-size: 20px;
+}
+
+.box1{
+    text-align: center;
+    padding-top: 30px;
+
+
+}
+.box11{
+     
+        
+  background-color: rgb(28, 27, 27);
+  text-align: center;  
+  
+}
+
+.box2{
+    margin-top: 40px;
+    display: none;
+}
+
+.b{
+    display: flex;
+    width: 100%;
+   
+}
+
+.b1{
+    width: 40%;
+    text-align:left ;
+    margin-left: 10%;
+}
+
+.b2{
+    width: 23%;
+}
+
+.b3{
+    width: 23%;
+}
+
+.b4{
+    width: 23%;
+    margin-right: 0px;
+}
+
+.tabcontent {
+    display: none;
+    
+    font-size: 20px;
+    
+  
+  }
+
+  .img1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .fot{
+    background-image:url(photo_2023-11-20_00-12-08\ \(1\).jpg) ;
+    background-size: 100% 100%;; 
+    background-repeat: no-repeat; 
+
+  
+  }
+  .team{
+    padding: 20px;
+  }
+
+
+
+
+  
+  .team1{
+       padding: 20px;
+
+   
+
+
+     
+
+  }
+  .img{    
+ 
+    width: 350px;
+    height: 450px;
+    
+  }
+  .p1{
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: rgb(244, 244, 244);
+    overflow: hidden;
+  }
+
+  .footer{
+    margin-top:60px ;
+    text-align: center;
+  }
+  .in{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+  }
+  select{
+    border: 1px solid rgb(28, 27, 27);
+    margin-left: 0px;
+    margin-bottom: 40px;
+    background-color: rgb(28, 27, 27);;
+
+
+  }
+  option{
+    border: 1px solid rgb(28, 27, 27);
+  }
+  .master{
+    display: flex; 
+  }
+  .spec{
+  margin-right: 5px;
+  }
+#select{
+  margin-top: 5px;
+  font-size: 15px;
+}
+  .section{
+    display: flex;
+    font-size: 15px;
+  }
+  .section1{
+    text-align: left; 
+  }
+
+  .section2{   
+  display: none;
+  }
+
+  .container {
+    width: 95%;
+    max-width: 1160px;
+    margin: auto;
+}
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    
+}
+.box {
+    height: 250px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #4b00ff;
+}
+.row-outer {
+    padding: 50px 0;
+}
+@media only screen and (max-width: 768px) {
+  /* html{
+    margin: 0 auto  ;
+  } */
+  .cont{ 
+    background-image:url(photo_2024-04-20_15-15-05.jpg) ;
+    height: 100vh;
+    background-size: 100% 100%;; 
+    background-repeat: no-repeat; 
+  }
+    
+  .box1{
+    position: relative;
+    margin-bottom: 380px;
+   
+  }
+button{
+  margin: 0px 0px;
+  background-color: none;
+}
+.close{
+ margin-bottom: 0px;
+  font-size: 25px;
+}
+.logdiv{
+  float: right;
+  float: top;
+  margin-right: 10px;
+  position: relative;
+}
+.knop{
+  position: relative;
+  float: left;
+  float: top;
+  margin-left: 10%;
+
+}
+.in{
+  
+  width: 35px;
+  height: 35px;
+  padding-bottom:5px;
+  padding-left:5px;
+}
+.logo{
+  width: 80px;
+  height: 50px;
+}
+.logo1 img{
+  width: 100px;
+  height: 50px;
+}
+
+}
+.nm{
+  display: flex;
+
+}
